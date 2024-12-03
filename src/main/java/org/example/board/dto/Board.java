@@ -15,7 +15,7 @@ public class Board {
     private String content;
     private int userId;
     private LocalDateTime regdate;
-    private int viewCnt;
+    private int viewCnt = 0;
     private String name; // JOIN을 위한 컬럼을 만들어 줘야한다.
 
 }

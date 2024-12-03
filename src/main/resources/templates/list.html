@@ -55,6 +55,7 @@
                         <a th:href="@{/board(boardId=${board.boardId},flag=true)}" th:text="${board.title}"></a>
                     </th>
                     <td th:text="${board.viewCnt}"></td>
+                    <td th:if="${board.viewCnt == null}" th:text="0"></td>
                     <td th:text="${board.name}"></td>
                     <td th:text="${board.regdate}"></td>
                 </tr>
