@@ -8,6 +8,10 @@
 - MYSQL - SQL
 - thymeleaf 탬플릿 엔진
 
+### MySql 계정
+- username : root
+- userpassword : root1234
+
 ## 아키텍처
 
 
